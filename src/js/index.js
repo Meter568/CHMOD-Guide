@@ -1,8 +1,8 @@
-let input = prompt('Enter the privilege level in the Linux OS from 0 to 7');
+const input = prompt('Enter the privilege level in the Linux OS from 0 to 7');
 
 let access;
 
-if(input === null) {
+if(input === null || input === '') {
     console.log('Okay.');
 } else {
     access = Number(input);
